@@ -13,4 +13,4 @@ console.log(addTwoNumbers(10, "20"));
 //* console.log(addTwoNumbers(10, 20))
 
 //* Better solution: foolproof the input values with conditionals
-//* and string conversion methods.
+//* and string conversion method string.Number() or string.parseInt().
