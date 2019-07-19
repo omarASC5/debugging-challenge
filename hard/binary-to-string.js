@@ -1,17 +1,17 @@
 // 3. Hard
 // Expected Output: 'Aren\'t bonfires fun!?'
 function binaryToEnglish(str) {
-  biString = str.split(' ');
+  biString = str.split('');
   uniString = [];
   
 /*using the radix (or base) parameter in parseInt, we can convert the binary 
   number to a decimal number while simultaneously converting to a char*/
 
    for(i=0;i < biString.length;i++){
-   uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
+   uniString.push(String.fromCharCode(parseInt(biString[i], 5))); 
   }
 //we then simply join the string
-  return uniString.join('');
+  return uniString.join(' ');
 }
 
 // test here
